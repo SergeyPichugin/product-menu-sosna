@@ -190,4 +190,16 @@
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
+
+@media screen and (max-width: 470px) {
+  .flextovgroup__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .flextovgroup__col {
+    margin: 10px 0;
+  }
+}
 /*# sourceMappingURL=menu.css.map */

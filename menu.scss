@@ -161,3 +161,18 @@
 		transition: all .3s ease;
 	}
 }
+
+@media screen and ( max-width: 470px ){
+    .flextovgroup{
+        
+        &__row{
+            flex-direction: column;
+        }
+
+        &__col{
+            margin: 10px 0;
+        }
+
+    }
+
+}
